@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<title> Mis Aventuras en el Perú </title>
+	<meta name="description" content="Live. Love. Learn. Join Monica in her adventures living in the beautiful country of Perú.">
+</head>
+<body>
+		
+	<h1>A Constant State of Wanderlust </h1>
+		
+	<div id="brief-sum">
+		<p> Life is too short to stay in one place. Go out and explore!</p>
+			<a href="http://monicanaleeinperu.blogspot.com">
+				<img src="http://i.dailymail.co.uk/i/pix/2014/06/16/article-2658923-1ECEC3AC00000578-139_634x418.jpg" atl="Llama">
+			</a>
+
+		<div id="realblog">
+			<a href="http://monicanaleeinperu.blogspot.com">Click here for more photos!</a>
+		</div>
+				
+			<p>I spent three months studying abroad and had the opportunity to explore most of Southern Perú, starting from Lima to Cusco and Bolivia as well.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo nibh, ullamcorper ut augue in, feugiat fermentum justo. In id urna id diam egestas porttitor sed eget risus. Aenean facilisis eleifend mi sit amet aliquam. Mauris tincidunt fermentum nisi, id viverra orci malesuada eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel volutpat sapien, eu cursus nisl. Donec convallis egestas diam a maximus. Aliquam tempus gravida commodo. Mauris semper velit vel euismod molestie. Is Latin <span id="quote"> easier to learn than Spanish?</span></p>
+	</div>
+		
+	<div id="favorite-places">
+		<h2> About Me</h2>
+			<p>My name is Monica. I love pugs.</p>
+		<h3>My Favorite Places in Peru</h3>
+			<ul>
+				<li>
+					<a href="https://www.tripadvisor.com/Tourism-g294314-Cusco_Cusco_Region-Vacations.html"> Cusco </a>
+				</li>
+				<li>
+					<a href="http://whc.unesco.org/en/list/700"> Nazca Lines</a>
+				</li>
+			</ul>
+	</div>
+
+		
+	<div id="contact-info">
+		<table>
+			<thead>
+				<tr>
+					<th>Email</th>
+					<th>Instagram</th>
+					<th>Phone Number</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>monicanalee@gmail.com</td>
+					<td>instagram.com/monicalovespugs</td>
+					<td>206-911-4111</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div id="Survey">
+		<form action="travelsurvey.php" method="post">
+
+			<p>Where have you traveled to? I would love to know!</p>
+			<label>
+				Cities:<input type="text" name="cities">
+			</label>
+			<label>
+				Countries:<input type="text" name="countries">
+			</label>
+			<label>
+				Continents:<input type="text" name="continents">
+			</label>
+
+			<p>Select your gender:</p>
+			<label>
+				<input type="radio" name="gender" value="male"> Male
+			</label>
+			<label>
+				<input type="radio" name="gender" value="female"> Female
+			</label>
+			<label>
+				<input type="radio" name="gender" value="noanswer"> Prefer Not to Answer
+			</label>
+
+			<p>What's your preferred method of transportation?</p>
+			<label>
+				<input type="checkbox" name="transportation" value="car"> Car
+			</label>
+			<label>
+				<input type="checkbox" name="transportation" value="train">Train
+			</label>
+			<label>
+				<input type="checkbox" name="transportation" value="airplane">Airplane
+			</label>
+			<label>
+				<input type="checkbox" name="transportation" value="boat">Boat
+			</label>
+			<label>
+				<input type="checkbox" name="transportation" value="Other">Other
+			</label>
+
+			<p>Do you love traveling?</p>
+			<select name="LoveTravel">
+				<option value="Yes">Yes</option>
+				<option value="No">No</option>
+			</select>
+			<p>Would you like to chat more?</p>
+			<textarea name="description"></textarea>
+
+			<div id="email">
+				<label>
+					Email: <input type="email" name="email">
+				</label>
+			</div>
+
+			<div id="phone">
+				<label>
+					Phone: <input type="number" name="phone">
+				</label>
+			</div>
+
+			<div id="submitbutton">
+				<input type="submit" value="Submit">
+			</div>
+			
+		</form>
+	</div>
+</body>
+</html>
